@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece4e16c-1c1c-473c-b4ae-a81012777607" name="Default" comment="" />
+    <list default="true" id="ece4e16c-1c1c-473c-b4ae-a81012777607" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Csv.java" afterPath="$PROJECT_DIR$/src/main/java/Csv.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +20,7 @@
       <file leaf-file-name="Csv.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Csv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="76">
               <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,6 +73,9 @@
       <find>23</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -113,6 +120,7 @@
     <option name="width" value="975" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages />
@@ -397,12 +405,12 @@
       <workItem from="1555950734152" duration="4061000" />
       <workItem from="1556209940301" duration="775000" />
       <workItem from="1556294114932" duration="609000" />
-      <workItem from="1556439218706" duration="5000" />
+      <workItem from="1556439218706" duration="662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120327000" />
+    <option name="totallyTimeSpent" value="120984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
@@ -412,7 +420,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5499426" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6583184" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -475,6 +483,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding>
+            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#3090#3106#0" expanded="true" />
+            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#8337#8345#0" expanded="true" />
+            <element signature="e#9444#9452#0" expanded="true" />
+            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
+            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
+            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
+            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
+            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -503,6 +526,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding>
+            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#3090#3106#0" expanded="true" />
+            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#8337#8345#0" expanded="true" />
+            <element signature="e#9444#9452#0" expanded="true" />
+            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
+            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
+            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
+            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
+            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,6 +569,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#3090#3106#0" expanded="true" />
+            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#8337#8345#0" expanded="true" />
+            <element signature="e#9444#9452#0" expanded="true" />
+            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
+            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
+            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
+            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
+            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -552,6 +605,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4340">
           <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+          <folding>
+            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#3090#3106#0" expanded="true" />
+            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#8337#8345#0" expanded="true" />
+            <element signature="e#9444#9452#0" expanded="true" />
+            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
+            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
+            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
+            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
+            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,6 +648,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12555">
           <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+          <folding>
+            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#3090#3106#0" expanded="true" />
+            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#8337#8345#0" expanded="true" />
+            <element signature="e#9444#9452#0" expanded="true" />
+            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
+            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
+            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
+            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
+            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,6 +698,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4508">
           <caret line="161" column="45" lean-forward="false" selection-start-line="161" selection-start-column="45" selection-end-line="161" selection-end-column="45" />
+          <folding>
+            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#3090#3106#0" expanded="true" />
+            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#8337#8345#0" expanded="true" />
+            <element signature="e#9444#9452#0" expanded="true" />
+            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
+            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
+            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
+            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
+            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -636,6 +734,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4284">
           <caret line="153" column="21" lean-forward="false" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+          <folding>
+            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#3090#3106#0" expanded="true" />
+            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#8337#8345#0" expanded="true" />
+            <element signature="e#9444#9452#0" expanded="true" />
+            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
+            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
+            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
+            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
+            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -729,6 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,12 +899,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#3090#3106#0" expanded="true" />
+            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
+            <element signature="e#8337#8345#0" expanded="true" />
+            <element signature="e#9444#9452#0" expanded="true" />
+            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
+            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
+            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
+            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
+            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Csv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="76">
           <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />

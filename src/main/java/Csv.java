@@ -17,7 +17,7 @@ public class Csv {
     private static final int INDEX_PRICE = 7;
     private static final int INDEX_DIFF = 8;
     private static final int INDEX_COUNT = 9;
-    private static final String DATE = "20190426";
+    private static final String DATE = "20190429";
     private static final String PATH = "D:\\csv\\"+DATE+".csv";
 
     public static ArrayList<StockPriceView> getDayPrice() throws Exception {
