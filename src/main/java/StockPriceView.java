@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 public class StockPriceView {
     private String id;       //代號
     private String date;     //日期
@@ -92,10 +94,20 @@ public class StockPriceView {
     }
 
     public double getPercentage() {
-        return percentage;
+        if (diff == 0) return  0;
+
+        double f = diff / (price - diff) * 100;
+        BigDecimal b = new BigDecimal(f);
+
+        return b.setScale(2, BigDecimal.ROUND_FLOOR).doubleValue();
+//        return Math.floor((diff / (price - diff)))*100;
     }
 
     public void setPercentage(double percentage) {
         this.percentage = percentage;
+    }
+
+    public String toString() {
+        return "id="+id+", date="+date+", volume="+volume+", amount="+amount+", open="+open+", high="+high+", low="+low+", price="+price+", diff="+diff+", percentage="+percentage+", count="+count;
     }
 }

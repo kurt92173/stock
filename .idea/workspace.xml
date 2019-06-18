@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece4e16c-1c1c-473c-b4ae-a81012777607" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FundPerDay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FundPerDayView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/StockDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/StockPrice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/StockView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Csv.class" afterPath="$PROJECT_DIR$/target/classes/Csv.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DayPrice.class" afterPath="$PROJECT_DIR$/target/classes/DayPrice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PriceDayInMonth.class" afterPath="$PROJECT_DIR$/target/classes/PriceDayInMonth.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/StockPriceView.class" afterPath="$PROJECT_DIR$/target/classes/StockPriceView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Csv.java" afterPath="$PROJECT_DIR$/src/main/java/Csv.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DayPrice.java" afterPath="$PROJECT_DIR$/src/main/java/DayPrice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PriceDayInMonth.java" afterPath="$PROJECT_DIR$/src/main/java/PriceDayInMonth.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StockPriceView.java" afterPath="$PROJECT_DIR$/src/main/java/StockPriceView.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,13 +28,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Csv.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Csv.java">
+      <file leaf-file-name="PriceDayInMonth.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PriceDayInMonth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="2945">
+              <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+              <folding>
+                <marker date="1560590834115" expanded="true" signature="7390:7496" ph="INSERT INTO StockPrice... " />
+                <marker date="1560590834115" expanded="true" signature="8671:8748" ph="select id fr... stock" />
+                <marker date="1560590834115" expanded="true" signature="9278:9322" ph="update stock... " />
+                <marker date="1560590834115" expanded="true" signature="9778:9847" ph="select count... stock" />
+                <marker date="1560590834115" expanded="true" signature="10339:10387" ph="INSERT INTO parseerror... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FundPerDay.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FundPerDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FundPerDayView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FundPerDayView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,36 +83,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Document</find>
-      <find>sleep</find>
-      <find>&quot;date =</find>
-      <find>SYSY</find>
-      <find>renewPrice</find>
-      <find>conn = DbTool.getConn();</find>
-      <find>reader.nextString()</find>
-      <find>31</find>
-      <find>stockpriceeveryday</find>
-      <find>INDEX_DATE</find>
-      <find>getcon</find>
-      <find>dsy</find>
-      <find>syst</find>
-      <find>insert</find>
-      <find>replace</find>
-      <find>limit</find>
-      <find>is already exists.</find>
-      <find>json</find>
-      <find>System.out.println</find>
-      <find>00633L</find>
-      <find>getDayPrice</find>
-      <find>sys</find>
-      <find>17</find>
-      <find>update</find>
-      <find>18</find>
-      <find>19</find>
-      <find>22</find>
-      <find>System.out</find>
       <find>TODAY</find>
       <find>23</find>
+      <find>0430</find>
+      <find>replace</find>
+      <find>insert</find>
+      <find>is already exists.</find>
+      <find>id done:</find>
+      <find>getStorck</find>
+      <find>getname</find>
+      <find>0517</find>
+      <find>class</find>
+      <find>20190612</find>
+      <find>line =</find>
+      <find>sys</find>
+      <find>conn</find>
+      <find>connection</find>
+      <find>select</find>
+      <find>bigdecimal</find>
+      <find>floor</find>
+      <find>http</find>
+      <find>parse</find>
+      <find>reader</find>
+      <find>reader.beginArray() 6</find>
+      <find>INDEX_DATE</find>
+      <find>INDEX_ID</find>
+      <find>INDEX_NAME</find>
+      <find>views</find>
+      <find>Array</find>
+      <find>buyUnit</find>
+      <find>System.out.println</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Stock.java" />
         <option value="$PROJECT_DIR$/src/main/java/LegalPerDayView.java" />
         <option value="$PROJECT_DIR$/src/main/java/LegalPerDay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DayPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/MySQLDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/db/MySQLDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/tool/DateTool.java" />
@@ -101,10 +142,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/StockLoanRemainView.java" />
         <option value="$PROJECT_DIR$/src/main/java/StockLoanRemain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DayPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/StockView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StockDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StockPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/StockPriceView.java" />
         <option value="$PROJECT_DIR$/src/main/java/PriceDayInMonth.java" />
         <option value="$PROJECT_DIR$/src/main/java/Csv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FundPerDayView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FundPerDay.java" />
       </list>
     </option>
   </component>
@@ -115,14 +161,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="219" />
-    <option name="y" value="-21" />
-    <option name="width" value="975" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -136,6 +181,101 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="channels" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -156,11 +296,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3762452" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pj1" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -183,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Csv">
+  <component name="RunManager" selected="Application.FundPerDay">
     <configuration name="Csv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Csv" />
@@ -198,9 +338,23 @@
       <module name="stock" />
       <envs />
     </configuration>
-    <configuration name="LegalPerDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DayPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="LegalPerDay" />
+      <option name="MAIN_CLASS_NAME" value="DayPrice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="stock" />
+      <envs />
+    </configuration>
+    <configuration name="FundPerDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="FundPerDay" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -226,23 +380,9 @@
       <module name="stock" />
       <envs />
     </configuration>
-    <configuration name="StockLoan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StockPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="StockLoan" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="stock" />
-      <envs />
-    </configuration>
-    <configuration name="StockLoanRemain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="StockLoanRemain" />
+      <option name="MAIN_CLASS_NAME" value="StockPrice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -337,18 +477,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.PriceDayInMonth" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LegalPerDay" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StockLoan" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StockLoanRemain" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Csv" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Csv" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DayPrice" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StockPrice" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FundPerDay" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Csv" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PriceDayInMonth" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StockLoanRemain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StockLoan" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LegalPerDay" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FundPerDay" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Csv" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PriceDayInMonth" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StockPrice" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DayPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -406,14 +546,42 @@
       <workItem from="1556209940301" duration="775000" />
       <workItem from="1556294114932" duration="609000" />
       <workItem from="1556439218706" duration="662000" />
+      <workItem from="1556553419099" duration="640000" />
+      <workItem from="1556680767126" duration="637000" />
+      <workItem from="1556839389952" duration="92000" />
+      <workItem from="1556884119319" duration="704000" />
+      <workItem from="1557150152626" duration="638000" />
+      <workItem from="1557245836875" duration="79000" />
+      <workItem from="1557321057798" duration="651000" />
+      <workItem from="1557540682644" duration="641000" />
+      <workItem from="1557877267188" duration="41000" />
+      <workItem from="1557937016835" duration="1587000" />
+      <workItem from="1557965049656" duration="344000" />
+      <workItem from="1558150730650" duration="11191000" />
+      <workItem from="1558183015546" duration="1202000" />
+      <workItem from="1558368590627" duration="826000" />
+      <workItem from="1558455827270" duration="217000" />
+      <workItem from="1559302722613" duration="2156000" />
+      <workItem from="1559313109961" duration="1295000" />
+      <workItem from="1559581782794" duration="961000" />
+      <workItem from="1559775081319" duration="645000" />
+      <workItem from="1559780881878" duration="122000" />
+      <workItem from="1560180071549" duration="705000" />
+      <workItem from="1560262167475" duration="7075000" />
+      <workItem from="1560352062558" duration="1936000" />
+      <workItem from="1560435628069" duration="1078000" />
+      <workItem from="1560590594217" duration="980000" />
+      <workItem from="1560781978230" duration="647000" />
+      <workItem from="1560870646613" duration="5042000" />
+      <workItem from="1560900919772" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120984000" />
+    <option name="totallyTimeSpent" value="163127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -421,26 +589,27 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5499426" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6583184" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.85481995" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39784947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3205575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32681242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -458,171 +627,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/CUrlTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BasicWebCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PriceDayInMonth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding>
-            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#3090#3106#0" expanded="true" />
-            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#8337#8345#0" expanded="true" />
-            <element signature="e#9444#9452#0" expanded="true" />
-            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
-            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
-            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
-            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
-            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CUrlTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BasicWebCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PriceDayInMonth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding>
-            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#3090#3106#0" expanded="true" />
-            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#8337#8345#0" expanded="true" />
-            <element signature="e#9444#9452#0" expanded="true" />
-            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
-            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
-            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
-            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
-            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BasicWebCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CUrlTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PriceDayInMonth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#3090#3106#0" expanded="true" />
-            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#8337#8345#0" expanded="true" />
-            <element signature="e#9444#9452#0" expanded="true" />
-            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
-            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
-            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
-            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
-            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PriceDayInMonth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4340">
-          <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
-          <folding>
-            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#3090#3106#0" expanded="true" />
-            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#8337#8345#0" expanded="true" />
-            <element signature="e#9444#9452#0" expanded="true" />
-            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
-            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
-            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
-            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
-            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LegalPerDay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3276">
@@ -649,19 +653,11 @@
         <state relative-caret-position="12555">
           <caret line="155" column="39" lean-forward="false" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
           <folding>
-            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#3090#3106#0" expanded="true" />
-            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#8337#8345#0" expanded="true" />
-            <element signature="e#9444#9452#0" expanded="true" />
-            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
-            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
-            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
-            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
-            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+            <marker date="1560590834115" expanded="true" signature="7390:7496" ph="INSERT INTO StockPrice... " />
+            <marker date="1560590834115" expanded="true" signature="8671:8748" ph="select id fr... stock" />
+            <marker date="1560590834115" expanded="true" signature="9278:9322" ph="update stock... " />
+            <marker date="1560590834115" expanded="true" signature="9778:9847" ph="select count... stock" />
+            <marker date="1560590834115" expanded="true" signature="10339:10387" ph="INSERT INTO parseerror... " />
           </folding>
         </state>
       </provider>
@@ -699,19 +695,11 @@
         <state relative-caret-position="4508">
           <caret line="161" column="45" lean-forward="false" selection-start-line="161" selection-start-column="45" selection-end-line="161" selection-end-column="45" />
           <folding>
-            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#3090#3106#0" expanded="true" />
-            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#8337#8345#0" expanded="true" />
-            <element signature="e#9444#9452#0" expanded="true" />
-            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
-            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
-            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
-            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
-            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+            <marker date="1560590834115" expanded="true" signature="7390:7496" ph="INSERT INTO StockPrice... " />
+            <marker date="1560590834115" expanded="true" signature="8671:8748" ph="select id fr... stock" />
+            <marker date="1560590834115" expanded="true" signature="9278:9322" ph="update stock... " />
+            <marker date="1560590834115" expanded="true" signature="9778:9847" ph="select count... stock" />
+            <marker date="1560590834115" expanded="true" signature="10339:10387" ph="INSERT INTO parseerror... " />
           </folding>
         </state>
       </provider>
@@ -735,19 +723,11 @@
         <state relative-caret-position="4284">
           <caret line="153" column="21" lean-forward="false" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
           <folding>
-            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#3090#3106#0" expanded="true" />
-            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#8337#8345#0" expanded="true" />
-            <element signature="e#9444#9452#0" expanded="true" />
-            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
-            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
-            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
-            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
-            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
+            <marker date="1560590834115" expanded="true" signature="7390:7496" ph="INSERT INTO StockPrice... " />
+            <marker date="1560590834115" expanded="true" signature="8671:8748" ph="select id fr... stock" />
+            <marker date="1560590834115" expanded="true" signature="9278:9322" ph="update stock... " />
+            <marker date="1560590834115" expanded="true" signature="9778:9847" ph="select count... stock" />
+            <marker date="1560590834115" expanded="true" signature="10339:10387" ph="INSERT INTO parseerror... " />
           </folding>
         </state>
       </provider>
@@ -771,13 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DayPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -838,25 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StockLoanView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -888,39 +846,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StockPriceView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StockLoanView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PriceDayInMonth.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StockDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="method#getPrice#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#parsePriceResult#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#3090#3106#0" expanded="true" />
-            <element signature="method#add#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#insert#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="method#getStock#0;class#PriceDayInMonth#0" expanded="false" />
-            <element signature="e#8337#8345#0" expanded="true" />
-            <element signature="e#9444#9452#0" expanded="true" />
-            <marker date="1556030970016" expanded="false" signature="7181:7287" ph="INSERT INTO StockPrice... " />
-            <marker date="1556030970016" expanded="false" signature="8411:8488" ph="select id fr... stock" />
-            <marker date="1556030970016" expanded="true" signature="9018:9062" ph="update stock... " />
-            <marker date="1556030970016" expanded="true" signature="9518:9587" ph="select count... stock" />
-            <marker date="1556030970016" expanded="false" signature="10079:10127" ph="INSERT INTO parseerror... " />
-          </folding>
+        <state relative-caret-position="111">
+          <caret line="6" column="79" lean-forward="false" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/nio/channels/Channels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="387" column="18" lean-forward="false" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/nio/channels/ReadableByteChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="154" column="22" lean-forward="false" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="394" column="20" lean-forward="true" selection-start-line="394" selection-start-column="20" selection-end-line="394" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="236" column="5" lean-forward="true" selection-start-line="234" selection-start-column="4" selection-end-line="236" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StockView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DayPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db/DbTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20190605.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69192">
+          <caret line="2290" column="34" lean-forward="false" selection-start-line="2290" selection-start-column="28" selection-end-line="2290" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StockPriceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1891">
+          <caret line="101" column="51" lean-forward="false" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StockPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1032" column="19" lean-forward="false" selection-start-line="1032" selection-start-column="19" selection-end-line="1032" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Csv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="124">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PriceDayInMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2945">
+          <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+          <folding>
+            <marker date="1560590834115" expanded="true" signature="7390:7496" ph="INSERT INTO StockPrice... " />
+            <marker date="1560590834115" expanded="true" signature="8671:8748" ph="select id fr... stock" />
+            <marker date="1560590834115" expanded="true" signature="9278:9322" ph="update stock... " />
+            <marker date="1560590834115" expanded="true" signature="9778:9847" ph="select count... stock" />
+            <marker date="1560590834115" expanded="true" signature="10339:10387" ph="INSERT INTO parseerror... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FundPerDayView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FundPerDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

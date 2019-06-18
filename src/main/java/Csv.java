@@ -2,6 +2,9 @@ import com.google.gson.Gson;
 import db.DbTool;
 
 import java.io.*;
+import java.net.URL;
+import java.nio.channels.Channels;
+import java.nio.channels.ReadableByteChannel;
 import java.sql.Connection;
 import java.util.ArrayList;
 
@@ -17,8 +20,8 @@ public class Csv {
     private static final int INDEX_PRICE = 7;
     private static final int INDEX_DIFF = 8;
     private static final int INDEX_COUNT = 9;
-    private static final String DATE = "20190429";
-    private static final String PATH = "D:\\csv\\"+DATE+".csv";
+    private static final String DATE = "2019"+"0618";
+    private static final String PATH = "D:\\csv\\"+ DATE+".csv";
 
     public static ArrayList<StockPriceView> getDayPrice() throws Exception {
         ArrayList<StockPriceView> views = new ArrayList<StockPriceView>();
@@ -93,6 +96,7 @@ public class Csv {
                 PriceDayInMonth.insert(conn, view);
             }
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("壞掉了");
             e.printStackTrace();
         } finally {
@@ -100,7 +104,52 @@ public class Csv {
         }
     }
 
+    public static void getCsv() {
+        try {
+            URL website = new URL("http://www.twse.com.tw/exchangeReport/STOCK_DAY_ALL?response=open_data");
+            ReadableByteChannel rbc = Channels.newChannel(website.openStream());
+
+            FileOutputStream fos = new FileOutputStream(PATH);
+            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+            fos.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void deleteLineOne() {
+        try {
+            File inputFile = new File(PATH);
+            if (!inputFile.exists()) throw new Exception("Csv is not existed.");
+
+            File tempFile = new File("D:\\csv\\temp.csv");
+            BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile));
+            String lineToRemove = "證券代號,證券名稱,成交股數,成交金額,開盤價,最高價,最低價,收盤價,漲跌價差,成交筆數";
+            String currentLine;
+
+            while((currentLine = reader.readLine()) != null) {
+                String trimmedLine = currentLine.trim();
+                if(trimmedLine.equals(lineToRemove)) {
+                    System.out.println("trimmedLine:"+trimmedLine);
+                    continue;
+                }
+                writer.write(currentLine + System.getProperty("line.separator"));
+            }
+            writer.close();
+            reader.close();
+            System.out.println("delete:"+inputFile.delete());
+            boolean successful = tempFile.renameTo(inputFile);
+            System.out.println("successful = " + successful);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
     public static void main(String[] args) throws Exception {
+        getCsv();
+        deleteLineOne();
         renewPrice();
     }
 }

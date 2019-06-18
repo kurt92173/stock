@@ -29,7 +29,7 @@ public class PriceDayInMonth {
 
     static {
 //        TODAY = DateTool.getCurrentDate();
-        TODAY = "20190219";
+        TODAY = "20190614";
     }
 
     private static boolean renewPrice() throws Exception {
@@ -46,9 +46,11 @@ public class PriceDayInMonth {
                         System.out.println("---> Type Strat: " + type.getType());
                     for (String id : getStock(conn, type.getType())) {
                             System.out.println("---> id Strat: " + id);
-                        add(conn, parsePriceResult(getPrice(id), id));
+                        ArrayList<StockPriceView> arrayList = parsePriceResult(getPrice(id), id);
+                        add(conn, arrayList);
                         update(conn, id, "Y");
                         count++;
+
                             System.out.println("---> id done: " + id);
                             System.out.println("---");
                         Thread.sleep(CUrlTool.getRandomSleep() * 1000);
@@ -107,7 +109,9 @@ public class PriceDayInMonth {
                     while (reader.hasNext()) {
                         switch (index) {
                             case INDEX_DATE:
-                                view.setDate(reader.nextString());
+                                String date = reader.nextString();
+                                date = date.replace("108","2019").replace("/","");
+                                view.setDate(date);
                                 break;
                             case INDEX_VOLUME:
                                 view.setVolume(Integer.valueOf(reader.nextString().replace(",", "")));
@@ -195,11 +199,12 @@ public class PriceDayInMonth {
             pstmt.setDouble(8, view.getPrice());
             pstmt.setDouble(9, view.getDiff());
             pstmt.setInt(10, view.getCount());
+            System.out.println(view.toString());
             pstmt.executeUpdate();
             pstmt.close();
         } catch (SQLException e) {
             if (1062 == e.getErrorCode()) {
-                System.out.println(view.getId() + "@" + view.getDate() + " is already exists.");
+//                System.out.println(view.getId() + "@" + view.getDate() + " is already exists.");
                 return;
             }
 
